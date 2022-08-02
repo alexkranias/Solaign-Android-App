@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Alex Kranias/StudioProjects/Solaign-Android-App/app/src/main/res/drawable/add_photo_icon.xml" value="0.1" />
+        <entry key="..\:/Users/Alex Kranias/StudioProjects/Solaign-Android-App/app/src/main/res/drawable/background_right_orange.xml" value="0.1" />
+        <entry key="..\:/Users/Alex Kranias/StudioProjects/Solaign-Android-App/app/src/main/res/layout/account_confirm_profile_edit.xml" value="0.1" />
+        <entry key="..\:/Users/Alex Kranias/StudioProjects/Solaign-Android-App/app/src/main/res/layout/account_edit.xml" value="0.2269021739130435" />
+        <entry key="..\:/Users/Alex Kranias/StudioProjects/Solaign-Android-App/app/src/main/res/layout/account_login.xml" value="0.2269021739130435" />
+        <entry key="..\:/Users/Alex Kranias/StudioProjects/Solaign-Android-App/app/src/main/res/layout/account_my_rentals_and_my_products.xml" value="0.2269021739130435" />
+        <entry key="..\:/Users/Alex Kranias/StudioProjects/Solaign-Android-App/app/src/main/res/layout/account_signup_pg1.xml" value="0.2269021739130435" />
+        <entry key="..\:/Users/Alex Kranias/StudioProjects/Solaign-Android-App/app/src/main/res/layout/account_signup_pg2.xml" value="0.1" />
+        <entry key="..\:/Users/Alex Kranias/StudioProjects/Solaign-Android-App/app/src/main/res/layout/account_terms_of_service.xml" value="0.2269021739130435" />
+        <entry key="..\:/Users/Alex Kranias/StudioProjects/Solaign-Android-App/app/src/main/res/layout/account_welcome.xml" value="0.2269021739130435" />
+        <entry key="..\:/Users/Alex Kranias/StudioProjects/Solaign-Android-App/app/src/main/res/layout/date_select.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Alex Kranias/StudioProjects/Solaign-Android-App/app/src/main/res/layout/message_sent_message.xml" value="0.2269021739130435" />
+        <entry key="..\:/Users/Alex Kranias/StudioProjects/Solaign-Android-App/app/src/main/res/layout/welcome_pg.xml" value="0.3333333333333333" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
