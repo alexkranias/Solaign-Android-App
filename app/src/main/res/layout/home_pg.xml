@@ -6,20 +6,17 @@
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toTopOf="parent"
-    android:background="" PUT BACKGROUND SRC HERE
+    android:background="@drawable/home_bcgrnd"
+
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/welcome_text_background"
-        CORNER
-        ROUNDED
-        THE
-        THING
+        android:background="@drawable/home_tab_bcgrnd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:visibility="visible"
-        android:background=""
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent">
 
         <TextView
@@ -33,7 +30,8 @@
             android:text="Solaign is a mobile tool to maximize the power output of your solar panels!
 
 Often times residential solar panels are not oriented correctly, leading to much of the sunlight they could capture over the course of months,years, or even decades to be lost to poor panel alignment. Solaign uses the same rigourous solar positioning algorithims found in national labs, scientific publications, and atmosphereic sciences research to find the best alignment for your personal solar panel instillation!"
-            android:textSize="17sp"
+            android:textSize="15dp"
+            android:textColor="#ffffff"
             app:layout_constraintBottom_toTopOf="@id/welcome_continue_btn"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
@@ -43,10 +41,11 @@ Often times residential solar panels are not oriented correctly, leading to much
             android:id="@+id/welcome_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="30dp"
             android:layout_marginBottom="10dp"
             android:text="How to Use Solaign"
-            android:textSize="32sp"
+            android:textSize="32dp"
+            android:textColor="#ffffff"
             app:layout_constraintBottom_toTopOf="@+id/welcome_description"
             app:layout_constraintStart_toStartOf="@id/welcome_description"
             app:layout_constraintTop_toTopOf="parent" />
@@ -58,11 +57,13 @@ Often times residential solar panels are not oriented correctly, leading to much
             android:layout_marginLeft="40dp"
             android:layout_marginRight="40dp"
             android:layout_marginBottom="32dp"
-            android:background="@drawable/login_btn"
+            android:background="@drawable/button1"
             android:fontFamily="sans-serif-black"
-            android:hint="Continue"
+            android:text="CONTINUE"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
             android:padding="12dp"
-            android:textSize="17sp"
+            android:textSize="15sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
@@ -71,28 +72,26 @@ Often times residential solar panels are not oriented correctly, leading to much
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/choose_background"
-        CORNER
-        ROUNDED
-        THE
-        THING
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background=""
-        android:visibility="gone"
+        android:background="@drawable/home_tab_bcgrnd"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent">
 
         <Button
             android:id="@+id/align_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="45dp"
+            android:layout_marginTop="32dp"
             android:layout_marginLeft="40dp"
             android:layout_marginRight="40dp"
-            android:background="@drawable/login_btn"
+            android:background="@drawable/button1"
             android:fontFamily="sans-serif-black"
             android:hint="ALIGN MY PANEL"
+            android:gravity="center"
+            android:textColor="#ffffff"
             android:padding="12dp"
-            android:textSize="17sp"
+            android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -107,6 +106,7 @@ Often times residential solar panels are not oriented correctly, leading to much
             android:fontFamily="sans-serif-medium"
             android:text="Be taken through the step-by-step alignment process to maximize your panels' energy output."
             android:textSize="13sp"
+            android:textColor="#ffffff"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/align_btn" />
@@ -117,12 +117,14 @@ Often times residential solar panels are not oriented correctly, leading to much
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
             android:layout_marginRight="40dp"
-            android:layout_marginTop="45dp"
-            android:background="@drawable/login_btn"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/button1"
             android:fontFamily="sans-serif-black"
-            android:hint="Continue"
+            android:hint="CONTINUE"
             android:padding="12dp"
-            android:textSize="17sp"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="#ffffff"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/align_description" />
@@ -134,10 +136,12 @@ Often times residential solar panels are not oriented correctly, leading to much
             android:layout_marginLeft="45dp"
             android:layout_marginTop="8dp"
             android:layout_marginRight="45dp"
-            android:layout_marginBottom="32dp"
+            android:layout_marginBottom="24dp"
             android:fontFamily="sans-serif-medium"
             android:text="Discover the quality of your current panel alignment and how much energy you are missing out on."
             android:textSize="13sp"
+
+            android:textColor="#ffffff"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -148,15 +152,19 @@ Often times residential solar panels are not oriented correctly, leading to much
 
     <ImageView
         android:id="@+id/logo_light"
-        android:layout_width="320dp"
-        android:layout_height="65dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/logo_light"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintHeight_percent="0.15"
+        app:layout_constraintWidth_percent="0.67"
+        android:scaleType="fitCenter"
+        android:src="@drawable/solaign_logo_light_small"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="60dp"
         app:layout_constraintBottom_toTopOf="@+id/welcome_text_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.232" />
+        app:layout_constraintVertical_bias="0.175" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
