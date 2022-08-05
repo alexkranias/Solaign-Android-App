@@ -29,7 +29,7 @@
             android:fontFamily="sans-serif-medium"
             android:text="Solaign is a mobile tool to maximize the power output of your solar panels!
 
-Often times residential solar panels are not oriented correctly, leading to much of the sunlight they could capture over the course of months,years, or even decades to be lost to poor panel alignment. Solaign uses the same rigourous solar positioning algorithims found in national labs, scientific publications, and atmosphereic sciences research to find the best alignment for your personal solar panel instillation!"
+Often times residential solar panels are not oriented correctly, leading to much of the sunlight they could capture over the course of months,years, or even decades to be lost to poor panel alignment. Solaign uses the same rigourous solar positioning algorithims found in national labs, scientific publications, and atmospheric sciences research to find the best alignment for your personal solar panel instillation!"
             android:textSize="15dp"
             android:textColor="#ffffff"
             app:layout_constraintBottom_toTopOf="@id/welcome_continue_btn"
@@ -120,7 +120,7 @@ Often times residential solar panels are not oriented correctly, leading to much
             android:layout_marginTop="25dp"
             android:background="@drawable/button1"
             android:fontFamily="sans-serif-black"
-            android:hint="CONTINUE"
+            android:hint="CHECK MY PANEL"
             android:padding="12dp"
             android:textSize="18sp"
             android:gravity="center"
@@ -155,7 +155,7 @@ Often times residential solar panels are not oriented correctly, leading to much
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintHeight_percent="0.15"
-        app:layout_constraintWidth_percent="0.67"
+        app:layout_constraintWidth_percent="0.8"
         android:scaleType="fitCenter"
         android:src="@drawable/solaign_logo_light_small"
         android:adjustViewBounds="true"

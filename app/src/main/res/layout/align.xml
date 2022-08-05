@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:background="#1e2038"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- USE MARGIN TO EFFECT LOCATION BASED ON ORIENTATION -->
+    <ImageView
+        android:id="@+id/align_circle"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/align_circle"
+        android:layout_marginTop="00dp"
+        android:layout_marginBottom="500dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="00dp"
+        app:layout_constraintBottom_toBottomOf="@+id/center_ring"
+        app:layout_constraintEnd_toEndOf="@+id/center_ring"
+        app:layout_constraintHeight_percent="0.25"
+        app:layout_constraintStart_toStartOf="@+id/center_ring"
+        app:layout_constraintTop_toTopOf="@+id/center_ring"
+        app:layout_constraintWidth_percent="0.47" />
+
+    <ImageView
+        android:id="@+id/center_ring"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent="0.5"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.25"
+        android:src="@drawable/ring"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tilt_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="23°"
+        android:textColor="#ffffff"
+        android:textSize="72sp"
+        app:layout_constraintBottom_toBottomOf="@+id/center_ring"
+        app:layout_constraintEnd_toEndOf="@+id/center_ring"
+        app:layout_constraintStart_toStartOf="@+id/center_ring"
+        app:layout_constraintTop_toTopOf="@+id/center_ring" />
+
+    <TextView
+        android:id="@+id/done_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:visibility="invisible"
+        android:textColor="#ffffff"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="@+id/center_ring"
+        app:layout_constraintEnd_toEndOf="@+id/center_ring"
+        app:layout_constraintStart_toStartOf="@+id/center_ring"
+        app:layout_constraintTop_toTopOf="@+id/center_ring" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Align To:"
+        android:textColor="#ffffff"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/compass_angle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Compass: 000° S"
+        android:textColor="#ffffff"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tilt_angle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="10dp"
+        android:text="Center: 00°"
+        android:textColor="#ffffff"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/compass_angle" />
+
+    <ImageView
+        android:id="@+id/outer_align_line"
+        android:layout_width="6dp"
+        android:layout_height="80dp"
+        android:background="@drawable/red_back"
+        app:layout_constraintBottom_toBottomOf="@+id/compass_box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/compass_box" />
+
+    <ImageView
+        android:id="@+id/compass_box"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/white_back"
+        app:layout_constraintBottom_toTopOf="@+id/tilt_angle" />
+
+    <ImageView
+        android:id="@+id/inner_align_line"
+        android:layout_width="6dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginRight="000dp"
+        android:background="@drawable/red_back"
+        app:layout_constraintBottom_toBottomOf="@+id/compass_box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/compass_box" />
+
+    <TextView
+        android:id="@+id/compass_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123° E"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="@+id/compass_box"
+        app:layout_constraintEnd_toEndOf="@+id/center_ring"
+        app:layout_constraintStart_toStartOf="@+id/center_ring"
+        app:layout_constraintTop_toTopOf="@+id/compass_box" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
