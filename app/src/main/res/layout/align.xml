@@ -60,7 +60,7 @@
         app:layout_constraintHeight_percent="0.4"
         android:gravity="center"
         android:hint="Done"
-        android:visibility="visible"
+        android:visibility="invisible"
         android:textColor="#ffffff"
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="@+id/center_ring"
@@ -97,7 +97,7 @@
         android:layout_height="wrap_content"
         android:layout_marginRight="12dp"
         android:layout_marginBottom="10dp"
-        android:text="Center: 00°"
+        android:text="Tilt: 00°"
         android:textColor="#ffffff"
         android:textSize="17sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -112,6 +112,28 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/compass_box" />
+
+    <ImageView
+        android:id="@+id/red_arrow_right"
+        android:visibility="invisible"
+        android:layout_width="22dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="6dp"
+        android:src="@drawable/red_arrow1"
+        app:layout_constraintBottom_toTopOf="@+id/compass_box"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/red_arrow_left"
+        android:visibility="invisible"
+        android:layout_width="22dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="6dp"
+        android:src="@drawable/red_arrow2"
+        app:layout_constraintBottom_toTopOf="@+id/compass_box"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/compass_box"

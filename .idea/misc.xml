@@ -14,12 +14,16 @@
         <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/drawable-v24/button6.xml" value="0.3195" />
         <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/drawable-v24/button7.xml" value="0.1655" />
         <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/drawable-v24/button8.xml" value="0.3675" />
+        <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/drawable-v24/button9.xml" value="0.3675" />
         <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/drawable-v24/login_btn.xml" value="0.3195" />
         <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/drawable-v24/red_back.xml" value="0.199" />
+        <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/drawable-v24/red_circle.xml" value="0.2255" />
         <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/drawable-v24/ring.xml" value="0.1655" />
         <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/drawable-v24/white_back.xml" value="0.199" />
         <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/layout/activity_sensor.xml" value="0.14688675302966986" />
-        <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/layout/align.xml" value="0.23560910307898258" />
+        <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/layout/align.xml" value="0.3009833262077811" />
+        <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/layout/check.xml" value="0.3009833262077811" />
+        <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/layout/check_analytics.xml" value="0.32592592592592595" />
         <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/layout/date_select.xml" value="0.26856884057971014" />
         <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/layout/home_pg.xml" value="0.26856884057971014" />
         <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/layout/place_phone.xml" value="0.2688123300090662" />
