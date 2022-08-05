@@ -51,12 +51,16 @@
         app:layout_constraintStart_toStartOf="@+id/center_ring"
         app:layout_constraintTop_toTopOf="@+id/center_ring" />
 
-    <TextView
+    <Button
         android:id="@+id/done_message"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Done"
-        android:visibility="invisible"
+        android:background="@drawable/button8"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent="0.5"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.4"
+        android:gravity="center"
+        android:hint="Done"
+        android:visibility="visible"
         android:textColor="#ffffff"
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="@+id/center_ring"
