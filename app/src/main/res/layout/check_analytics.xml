@@ -78,6 +78,7 @@
         android:id="@+id/continue_btn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/button6"
         android:fontFamily="sans-serif-black"
         android:gravity="center"
@@ -94,7 +95,8 @@
         android:id="@+id/continue_btn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:background="@drawable/button6"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button1"
         android:fontFamily="sans-serif-black"
         android:gravity="center"
         android:hint="BACK TO HOME"
@@ -103,6 +105,7 @@
         android:textSize="17sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintWidth_percent="0.85" />
 
