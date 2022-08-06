@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alata</item>
+        <item>@font/blinker</item>
+        <item>@font/blinker_bold</item>
+        <item>@font/blinker_light</item>
+        <item>@font/blinker_semibold</item>
+        <item>@font/chonburi</item>
+    </array>
+</resources>

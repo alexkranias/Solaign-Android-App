@@ -39,6 +39,7 @@
         android:id="@+id/instructions"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/alata"
         android:gravity="center"
         android:text="Please Lay Backside of Phone on Panel as Shown"
         android:textColor="#ffffff"

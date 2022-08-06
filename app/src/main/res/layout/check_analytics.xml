@@ -14,13 +14,12 @@
         android:id="@+id/logo_light"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="28dp"
         android:adjustViewBounds="true"
         android:scaleType="fitCenter"
         android:src="@drawable/solaign_logo_blue_small"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHeight_percent="0.15"
-        app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintWidth_percent="0.67" />
@@ -29,16 +28,19 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="52dp"
+        android:fontFamily="@font/alata"
         android:text="ANALYTICS"
         android:textAlignment="center"
         android:textColor="#ffffff"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="@+id/logo_light"
+        app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="@+id/logo_light"
         app:layout_constraintTop_toTopOf="@+id/logo_light" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -51,6 +53,7 @@
             android:layout_width="170dp"
             android:layout_height="170dp"
             android:background="@drawable/red_circle"
+            android:fontFamily="@font/chonburi"
             android:gravity="center"
             android:text="78.9%"
             android:textColor="#ffffff"
@@ -64,6 +67,7 @@
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_marginStart="8dp"
+            android:fontFamily="@font/blinker_bold"
             android:gravity="center"
             android:text="of Maximum Potential Energy Being Produced"
             android:textColor="#ffffff"
@@ -74,8 +78,30 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+    <!-- 437.5 sqft is around the amount of solar needed for the above average US house who will be using this app-->
+    <TextView
+        android:id="@+id/analysis_desc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:fontFamily="@font/blinker"
+        android:lineSpacingExtra="3sp"
+        android:text="
+        Your solar panel installation is only generating [percent] of its generating capacity.
+
+\n\nFor an average-sized residential solar instillation, that's a loss of [xxxx kWh] a year, or the same amount of energy as running [# of lightbulbs] lightbulbs non-stop!
+
+\n\nConsider realigning your panels today!"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/align_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+
     <Button
-        android:id="@+id/continue_btn"
+        android:id="@+id/align_btn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
@@ -85,17 +111,17 @@
         android:hint="ALIGN MY PANEL"
         android:padding="12dp"
         android:textSize="17sp"
-        app:layout_constraintBottom_toTopOf="@+id/continue_btn"
+        app:layout_constraintBottom_toTopOf="@+id/home_btn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintWidth_percent="0.85" />
 
     <Button
-        android:id="@+id/continue_btn"
+        android:id="@+id/home_btn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="24dp"
         android:background="@drawable/button1"
         android:fontFamily="sans-serif-black"
         android:gravity="center"

@@ -10,35 +10,30 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <ImageView
-        android:layout_width="360dp"
-        android:layout_height="360dp"
-        android:background="@drawable/sun"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <Button
         android:id="@+id/done_message"
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:background="@drawable/button9"
+        android:fontFamily="@font/alata"
         android:gravity="center"
-        android:hint="Analyze"
+        android:hint="ANALYZE"
         android:textColor="#ffffff"
         android:textSize="40sp"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginBottom="10dp"
+        android:fontFamily="@font/blinker"
         android:text="Current Position:"
         android:textColor="#ffffff"
         android:textSize="17sp"
@@ -51,6 +46,7 @@
         android:layout_height="wrap_content"
         android:layout_marginRight="10dp"
         android:layout_marginBottom="10dp"
+        android:fontFamily="@font/blinker"
         android:text="Compass: 000° S"
         android:textColor="#ffffff"
         android:textSize="17sp"
@@ -63,6 +59,7 @@
         android:layout_height="wrap_content"
         android:layout_marginRight="12dp"
         android:layout_marginBottom="10dp"
+        android:fontFamily="@font/blinker"
         android:text="Tilt: 00°"
         android:textColor="#ffffff"
         android:textSize="17sp"
