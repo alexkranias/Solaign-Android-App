@@ -3,6 +3,30 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/drawable-v24/align_circle.xml" value="0.3325" />
+        <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/drawable-v24/background1.xml" value="0.3195" />
+        <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/drawable-v24/background2.xml" value="0.3195" />
+        <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/drawable-v24/button1.xml" value="0.3195" />
+        <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/drawable-v24/button2.xml" value="0.3195" />
+        <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/drawable-v24/button3.xml" value="0.3195" />
+        <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/drawable-v24/button4.xml" value="0.3195" />
+        <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/drawable-v24/button5.xml" value="0.3195" />
+        <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/drawable-v24/button6.xml" value="0.3195" />
+        <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/drawable-v24/button7.xml" value="0.1655" />
+        <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/drawable-v24/button8.xml" value="0.3675" />
+        <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/drawable-v24/button9.xml" value="0.3675" />
+        <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/drawable-v24/login_btn.xml" value="0.3195" />
+        <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/drawable-v24/red_back.xml" value="0.199" />
+        <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/drawable-v24/red_circle.xml" value="0.2255" />
+        <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/drawable-v24/ring.xml" value="0.1655" />
+        <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/drawable-v24/white_back.xml" value="0.199" />
+        <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/layout/activity_sensor.xml" value="0.14688675302966986" />
+        <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/layout/align.xml" value="0.3009833262077811" />
+        <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/layout/check.xml" value="0.3009833262077811" />
+        <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/layout/check_analytics.xml" value="0.32592592592592595" />
+        <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/layout/date_select.xml" value="0.26856884057971014" />
+        <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/layout/home_pg.xml" value="0.26856884057971014" />
+        <entry key="..\:/Software/Solaign-Android-App/app/src/main/res/layout/place_phone.xml" value="0.2688123300090662" />
         <entry key="..\:/Users/Alex Kranias/StudioProjects/Solaign-Android-App/app/src/main/res/drawable/add_photo_icon.xml" value="0.1" />
         <entry key="..\:/Users/Alex Kranias/StudioProjects/Solaign-Android-App/app/src/main/res/drawable/background_right_orange.xml" value="0.1" />
         <entry key="..\:/Users/Alex Kranias/StudioProjects/Solaign-Android-App/app/src/main/res/layout/account_confirm_profile_edit.xml" value="0.1" />
@@ -13,20 +37,36 @@
         <entry key="..\:/Users/Alex Kranias/StudioProjects/Solaign-Android-App/app/src/main/res/layout/account_signup_pg2.xml" value="0.1" />
         <entry key="..\:/Users/Alex Kranias/StudioProjects/Solaign-Android-App/app/src/main/res/layout/account_terms_of_service.xml" value="0.2269021739130435" />
         <entry key="..\:/Users/Alex Kranias/StudioProjects/Solaign-Android-App/app/src/main/res/layout/account_welcome.xml" value="0.2269021739130435" />
-        <entry key="..\:/Users/Alex Kranias/StudioProjects/Solaign-Android-App/app/src/main/res/layout/activity_main.xml" value="0.4444444444444444" />
-        <entry key="..\:/Users/Alex Kranias/StudioProjects/Solaign-Android-App/app/src/main/res/layout/activity_sensor.xml" value="0.3162037037037037" />
-        <entry key="..\:/Users/Alex Kranias/StudioProjects/Solaign-Android-App/app/src/main/res/layout/align.xml" value="0.4444444444444444" />
-        <entry key="..\:/Users/Alex Kranias/StudioProjects/Solaign-Android-App/app/src/main/res/layout/check.xml" value="0.48888888888888893" />
-        <entry key="..\:/Users/Alex Kranias/StudioProjects/Solaign-Android-App/app/src/main/res/layout/check_analytics.xml" value="0.2759259259259259" />
         <entry key="..\:/Users/Alex Kranias/StudioProjects/Solaign-Android-App/app/src/main/res/layout/date_select.xml" value="0.3333333333333333" />
-        <entry key="..\:/Users/Alex Kranias/StudioProjects/Solaign-Android-App/app/src/main/res/layout/home_pg.xml" value="0.4444444444444444" />
         <entry key="..\:/Users/Alex Kranias/StudioProjects/Solaign-Android-App/app/src/main/res/layout/message_sent_message.xml" value="0.2269021739130435" />
-        <entry key="..\:/Users/Alex Kranias/StudioProjects/Solaign-Android-App/app/src/main/res/layout/place_phone.xml" value="0.3162037037037037" />
         <entry key="..\:/Users/Alex Kranias/StudioProjects/Solaign-Android-App/app/src/main/res/layout/welcome_pg.xml" value="0.3333333333333333" />
+        <entry key="app/src/main/res/drawable-v24/align_circle.xml" value="0.1285" />
+        <entry key="app/src/main/res/drawable-v24/button1.xml" value="0.1285" />
+        <entry key="app/src/main/res/drawable-v24/button2.xml" value="0.1285" />
+        <entry key="app/src/main/res/drawable-v24/button3.xml" value="0.1285" />
+        <entry key="app/src/main/res/drawable-v24/button4.xml" value="0.1285" />
+        <entry key="app/src/main/res/drawable-v24/button5.xml" value="0.1285" />
+        <entry key="app/src/main/res/drawable-v24/button6.xml" value="0.1285" />
+        <entry key="app/src/main/res/drawable-v24/button7.xml" value="0.1285" />
+        <entry key="app/src/main/res/drawable-v24/button8.xml" value="0.1285" />
+        <entry key="app/src/main/res/drawable-v24/button9.xml" value="0.1285" />
+        <entry key="app/src/main/res/drawable-v24/home_tab_bcgrnd.xml" value="0.1285" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.1275" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1285" />
+        <entry key="app/src/main/res/drawable-v24/red_back.xml" value="0.1285" />
+        <entry key="app/src/main/res/drawable-v24/red_circle.xml" value="0.1285" />
+        <entry key="app/src/main/res/drawable-v24/ring.xml" value="0.1285" />
+        <entry key="app/src/main/res/drawable-v24/white_back.xml" value="0.1285" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.182518115942029" />
+        <entry key="app/src/main/res/layout/activity_sensor.xml" value="0.182518115942029" />
+        <entry key="app/src/main/res/layout/align.xml" value="0.182518115942029" />
+        <entry key="app/src/main/res/layout/date_select.xml" value="0.11770833333333333" />
+        <entry key="app/src/main/res/layout/home_pg.xml" value="0.182518115942029" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1285" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

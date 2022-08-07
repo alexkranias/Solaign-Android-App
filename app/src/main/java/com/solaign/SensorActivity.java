@@ -1,7 +1,5 @@
 package com.solaign;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.Activity;
 import android.content.Context;
 import android.hardware.Sensor;
@@ -129,10 +127,12 @@ public class SensorActivity extends Activity implements SensorEventListener {
 
     /**
      * Standard getOrientation outputs in radians. This method converts those values to degrees
+     * @return
      */
-    private static void convertOrientationToDegrees(float[] orientation) {
+    private static float[] convertOrientationToDegrees(float[] orientation) {
         orientation[0] = (float)Math.toDegrees(orientation[0]);
         orientation[1] = (float)Math.toDegrees(orientation[1]);
         orientation[2] = (float)Math.toDegrees(orientation[2]);
+        return orientation;
     }
 } //LINK TO getOrientation outputs: https://developer.android.com/reference/android/hardware/SensorManager#getOrientation(float[],%20float[])

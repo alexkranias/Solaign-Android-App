@@ -1,24 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#F2AF58</color>
-    <color name="colorPrimaryDark">#f2af58</color>
-    <color name="colorAccent">#F2AF58</color>
-
-    <color name="login_form_details">#ccffffff</color>
-    <color name="login_form_details_light">#ffffff</color>
-    <color name="login_form_details_medium">#ffffff</color>
-
-    <color name="light_background">#f7f7f7</color>
-    <color name="dark_background">#202020</color>
-    <color name="accent_background">#F2AF58</color>
-    <color name="light_color_background">#fdf5ea</color>
-
-    <color name="light_grey">#e2e2e2</color>
-    <color name="red">#d42627</color>
-    <color name="dark_red">#ac2222</color>
-    <color name="white">#FFFFFF</color>
-
-    <color name="chat_notification_number_bckgrnd">#DF5252</color>
-
-    <color name="transparent">#2e303030</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
 </resources>
