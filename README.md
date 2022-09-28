@@ -1,6 +1,4 @@
 # Solaign
-Created by Alex Kranias & Ayush Pai.
-
 Solaign is a mobile tool to maximize the power output of residential solar panel instillations. Most residential solar panels are fixed in place when instialled, and often times when installed they are not oriented optimally, leading to much of the sunlight they could capture over the course of months, years, or even decades to be lost to poor panel alignment. Solaign solves this by using GPS and climate data in tandem with solar positioning algorithims to calculate the best alignment for a given solar panel installation.
 
 ## Purpose
